@@ -9,3 +9,4 @@ ufw default deny incoming # Deny all incoming connections
 ufw default allow outgoing # Allow all outgoing connections
 ufw allow 80/tcp # Allow HTTP connections, helps for CertBot
 ufw allow 443/tcp # Allow HTTPS connections, for serving phishing pages
+ufw allow ssh # Allow SSH connections back into your VPS so you don't get locked out
